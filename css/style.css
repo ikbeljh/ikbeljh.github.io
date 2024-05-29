@@ -115,6 +115,86 @@ button:hover {
   }
 }
 
+footer {
+  background-color: #353535;
+  color: white;
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  padding: 22px;
+}
+@media (min-width: 767.99px) {
+  footer {
+    flex-direction: row-reverse;
+    padding-top: 60px;
+    height: 114px;
+  }
+}
+@media (min-width: 1023.99px) {
+  footer {
+    width: 100%;
+  }
+}
+footer .logo {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Shrikhand";
+  margin-bottom: 25px;
+}
+@media (min-width: 767.99px) {
+  footer .logo {
+    margin-left: 20px;
+  }
+}
+@media (min-width: 1023.99px) {
+  footer .logo {
+    margin-left: 60px;
+    margin-right: 40px;
+  }
+}
+footer .content {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 767.99px) {
+  footer .content {
+    flex-direction: row;
+  }
+}
+footer .content a, footer .content a:visited, footer .content a:focus {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 7px;
+}
+@media (min-width: 767.99px) {
+  footer .content a .element, footer .content a:visited .element, footer .content a:focus .element {
+    margin-left: 14px;
+  }
+}
+@media (min-width: 1023.99px) {
+  footer .content a .mentions, footer .content a:visited .mentions, footer .content a:focus .mentions {
+    margin-left: 40px;
+  }
+}
+@media (min-width: 1023.99px) {
+  footer .content a .contact, footer .content a:visited .contact, footer .content a:focus .contact {
+    margin-left: 15px;
+  }
+}
+footer .content a .fa-solid, footer .content a:visited .fa-solid, footer .content a:focus .fa-solid {
+  width: 20px;
+}
+@media (min-width: 767.99px) {
+  footer .content a .fa-solid, footer .content a:visited .fa-solid, footer .content a:focus .fa-solid {
+    margin-left: 13px;
+  }
+}
+@media (min-width: 1023.99px) {
+  footer .content a .fa-solid, footer .content a:visited .fa-solid, footer .content a:focus .fa-solid {
+    margin-left: 5px;
+  }
+}
 
 header {
   display: flex;
@@ -688,7 +768,18 @@ header .arrow a, header .arrow a:visited, header .arrow a:focus {
     left: 100%;
   }
 }
-
+.menu .menu-category .menu-item .checkbox .fa-check {
+  color: #99E2D0;
+  position: relative;
+  background-color: white;
+  border-radius: 25px;
+  font-size: 15px;
+  top: 23px;
+  height: fit-content;
+  width: 15px;
+  padding: 4px;
+  overflow: hidden;
+}
 
 .order-button {
   background: #F7F7F7;
@@ -703,8 +794,6 @@ header .arrow a, header .arrow a:visited, header .arrow a:focus {
     margin-right: auto;
   }
 }
-
-
 
 .starter {
   animation: show-menu 3s linear 0s 1 forwards;
@@ -742,84 +831,4 @@ header .arrow a, header .arrow a:visited, header .arrow a:focus {
   }
 }
 
-
-footer {
-  background-color: #353535;
-  color: white;
-  font-family: "Roboto";
-  display: flex;
-  flex-direction: column;
-  padding: 22px;
-}
-@media (min-width: 767.99px) {
-  footer {
-    flex-direction: row-reverse;
-    padding-top: 60px;
-    height: 114px;
-  }
-}
-@media (min-width: 1023.99px) {
-  footer {
-    width: 100%;
-  }
-}
-footer .logo {
-  font-style: italic;
-  font-weight: 400;
-  font-size: 18px;
-  font-family: "Shrikhand";
-  margin-bottom: 25px;
-}
-@media (min-width: 767.99px) {
-  footer .logo {
-    margin-left: 20px;
-  }
-}
-@media (min-width: 1023.99px) {
-  footer .logo {
-    margin-left: 60px;
-    margin-right: 40px;
-  }
-}
-footer .content {
-  display: flex;
-  flex-direction: column;
-}
-@media (min-width: 767.99px) {
-  footer .content {
-    flex-direction: row;
-  }
-}
-footer .content a, footer .content a:visited, footer .content a:focus {
-  text-decoration: none;
-  color: white;
-  margin-bottom: 7px;
-}
-@media (min-width: 767.99px) {
-  footer .content a .element, footer .content a:visited .element, footer .content a:focus .element {
-    margin-left: 14px;
-  }
-}
-@media (min-width: 1023.99px) {
-  footer .content a .mentions, footer .content a:visited .mentions, footer .content a:focus .mentions {
-    margin-left: 40px;
-  }
-}
-@media (min-width: 1023.99px) {
-  footer .content a .contact, footer .content a:visited .contact, footer .content a:focus .contact {
-    margin-left: 15px;
-  }
-}
-footer .content a .fa-solid, footer .content a:visited .fa-solid, footer .content a:focus .fa-solid {
-  width: 20px;
-}
-@media (min-width: 767.99px) {
-  footer .content a .fa-solid, footer .content a:visited .fa-solid, footer .content a:focus .fa-solid {
-    margin-left: 13px;
-  }
-}
-@media (min-width: 1023.99px) {
-  footer .content a .fa-solid, footer .content a:visited .fa-solid, footer .content a:focus .fa-solid {
-    margin-left: 5px;
-  }
-}
+/*# sourceMappingURL=style.css.map */
